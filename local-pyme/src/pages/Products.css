@@ -1,0 +1,203 @@
+/* Render product */
+
+.Products-title {
+  margin-bottom: 0.4rem;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 1.1rem;
+  color: #27374d;
+
+}
+
+.Product-card-li {
+  color: #27374d;
+  padding: 7px;
+  list-style: none;
+  margin-right: 1rem;
+}
+
+.Product-detail-link{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #27374d;
+}
+
+.Product-card {
+  margin-left: 1.5rem;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #27374d;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 #27374d;
+}
+
+.Product-image {
+  border-radius: 10px;
+  height: 30%;
+  width: 50%;
+  margin-bottom: 1rem;
+}
+
+.Product-price-and-btn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.2rem;
+}
+
+.Product-price {
+  font-size: 1.2rem;
+  color: #27374d;
+}
+
+.Product-price-content-btn {
+  width: 40px;
+  height: 40px;
+  background-color: #27374d;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.Product-price-content-btn:hover {
+  background-color: #526d82;
+}
+
+.Product-price-btn {
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  color: #e6e6e6;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* Publicidad Articulos */
+
+.Section-img {
+  height: 10rem;
+  width: 90%;
+  border-radius: 10px 10px 0 0;
+}
+
+.Article-promo-content {
+  margin-top: 3rem;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Article-advised-title {
+  margin-top: 0.5rem;
+  font-size: 10px;
+  color: #526d82;
+  margin-bottom: 0.4rem;
+}
+
+.Article-content-offert {
+  padding: 4px;
+  background-color: #27374d;
+  color: #e6e6e6;
+  width: 90%;
+  border-radius: 0 0 10px 10px;
+}
+
+.Article-advice-commercial {
+  font-size: 1.5rem;
+  color: #e6e6e6;
+  margin-bottom: 1.5rem;
+}
+
+.Article-btn-arrow {
+  display: flex;
+}
+
+.Article-btn-advice {
+  border-radius: 5px;
+  height: 2rem;
+  border: none;
+  background-color: #e6e6e6;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s box-shadow;
+  margin-left: 0.5rem;
+  margin-bottom: 0.6rem;
+}
+
+.Article-btn-advice:hover {
+  box-shadow: -1px -1px 10px #9db2bf;
+}
+
+.Article-text-grab {
+  color: #27374d;
+}
+
+.Article-arrow {
+  color: #27374d;
+  width: 1.2rem;
+}
+
+.Article-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 4rem;
+}
+
+.Article-suscribe {
+  margin-top: 1rem;
+  padding: 5px;
+  font-size: 2rem;
+  letter-spacing: -2px;
+  margin-left: 0.5rem;
+  color: #27374d;
+  width: 96%;
+}
+
+.Article-suscribe-sale {
+  padding: 5px;
+  font-size: 0.9rem;
+  color: #526d82;
+  width: 94%;
+}
+
+.Article-content-input-btn {
+  margin-top: 1.1rem;
+}
+
+.Article-email-input {
+  height: 2.8rem;
+  width: 13rem;
+  border: 1px solid #9db2bf;
+  border-radius: 5px;
+  margin-right: 0.3rem;
+}
+
+.Article-advise-suscribe {
+  background-color: #27374d;
+  height: 2.8rem;
+  width: 4rem;
+  border-radius: 5px;
+  border: none;
+  color: #e6e6e6;
+  cursor: pointer;
+}
+.Article-advise-suscribe:hover {
+  box-shadow: 1px 1px 10px #9db2bf;
+}
+
+.Article-bn {
+  font-size: 0.8rem;
+  color: #526d82;
+  margin-top: 1.2rem;
+}

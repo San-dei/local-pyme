@@ -1,0 +1,43 @@
+.Product-h3 {
+  padding: 10px;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  color: #27374d;
+}
+
+.Products-icon-sec {
+  color: #475f72;
+  height: 30px;
+  width: 30px;
+  margin-bottom: .5rem;
+}
+
+.Products-title {
+  color: #27374d;
+}
+
+.Products-parraf {
+  color: #9DB2BF;
+}
+
+.Product-comercial {
+  position: relative;
+}
+
+.Products-contentSliceShow {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.Controls {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

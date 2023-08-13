@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+/* outline: 1px solid red; */
+}
+
+:root{
+  --color-first:#27374d;
+  --color-second:#526D82;
+  --color-third:#9DB2BF; /* textos secundarios, footer*/
+  --color-fourth:#DDE6ED;
+}
+
+body{
+  background-color: #DDE6ED;
+}
